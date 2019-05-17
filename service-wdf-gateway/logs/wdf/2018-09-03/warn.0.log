@@ -1,0 +1,2 @@
+[WARN ] 2018-09-03 13:36:45 [main:6467:com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.
+[WARN ] 2018-09-03 13:36:45 [main:6480:com.netflix.config.sources.URLConfigurationSource:121] - No URLs will be polled as dynamic configuration sources.

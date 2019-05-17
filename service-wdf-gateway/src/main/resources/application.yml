@@ -1,0 +1,22 @@
+server:
+  port: 8762
+#  port: 8763
+#  max-http-header-size: 8192
+# 外网映射 dev.cloudsmaker.net:10011
+
+spring:
+  application:
+    name: service-wdf-gateway-new
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8761/eureka
+
+kafka:
+  brokers: 192.168.231.198:9092
+#logging:
+#  file: logs/main.log
+#  level:
+#    com.example.wdfgatewayservice: info
+
